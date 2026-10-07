@@ -3,22 +3,181 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jethva Parivar</title>
+  <title>Jethva Parivar · A family archive</title>
+  <meta name="description" content="The Jethwa family of Dewji Bapa: twelve generations, our Kuldev Chorwad Mata, our Sura Pura Bapa and nine centuries of the Jethwa name in Saurashtra.">
+  <meta name="theme-color" content="#0c0a09">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Jost:wght@300;400;500&family=Hind+Vadodara:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Jethva Parivar</h1>
-    <p>Welcome to the Jethva family website.</p>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Jethva Parivar<span>જેઠવા પરિવાર</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="lineage.html">Lineage</a>
+        <a href="people.html">People</a>
+        <a href="time.html">Time</a>
+        <a href="land.html">Land</a>
+        <a href="memory.html">Memory</a>
+        <a href="archive.html">Archive</a>
+      </nav>
+    </div>
   </header>
+
   <main>
-    <section>
-      <h2>About</h2>
-      <p>This site is coming soon.</p>
-    </section>
+<section class="hero">
+  <div class="hero-img" data-speed="-0.25"></div>
+  <canvas></canvas>
+  <div class="hero-art" data-art="temple" data-draw="load"></div>
+  <div class="wrap">
+    <p class="eyebrow">Vanshavali · Second edition · 2026</p>
+    <h1><span class="row"><span>Jethwa</span></span><span class="row"><span>Parivar</span></span></h1>
+    <div class="gu-title">જેઠવા પરિવાર · વંશાવળી</div>
+    <p class="sub">Nine centuries of a name. Twelve generations of one family. From the Barda hills to the shrines of Khambhalia and Morzar.</p>
+  </div>
+  <div class="scroll-cue">Scroll<i></i></div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="eyebrow reveal">A note from the compiler</p>
+    <p class="statement">This book did not begin with me, and it will not end with me. It is the work of many hands, and of many hearts.</p>
+    <p class="signature reveal">Manoj Ramniklal Jethwa · Compiler</p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat reveal"><div class="num" data-count="900" data-suffix="+">0</div><div class="lbl">Years of the Jethwa name in published history</div></div>
+      <div class="stat reveal" style="--d:.15s"><div class="num" data-count="12">0</div><div class="lbl">Generations of our family remembered by name</div></div>
+      <div class="stat reveal" style="--d:.3s"><div class="num" data-count="262">0</div><div class="lbl">Family members in one tree</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow reveal">Land</p>
+      <h2><span class="mask"><span>Where our</span></span><span class="mask"><span style="--d:.12s"><em>story</em> happened</span></span></h2>
+    </div>
+    <div class="scrolly">
+      <div class="sticky"><div class="map-wrap" style="width:100%" data-art="map" data-draw="scroll"></div></div>
+      <div class="steps-col">
+        <div data-step data-pins="Morvi"><p class="eyebrow">c. 900 · Tradition</p><h3>Morvi</h3><p class="lede">Remembered in the clan’s tradition as an early capital, lost to an army from the north in 1193.</p></div>
+        <div data-step data-pins="Ghumli"><p class="eyebrow">1220 – 1313</p><h3>Ghumli, in the Barda hills</h3><p class="lede">The fortified capital of the Ranas, with the Navlakha Sun temple and the great Vikia Vav stepwell.</p></div>
+        <div data-step data-pins="Porbandar"><p class="eyebrow">1685 – 1948</p><h3>Porbandar</h3><p class="lede">Won back from Mughal control in 1671, it remained the seat of the Jethwa Ranas until independence.</p></div>
+        <div data-step data-pins="Khambhalia,Bet Dwarka"><p class="eyebrow">Our shrine</p><h3>Khambhalia</h3><p class="lede">Where our Kuldev, Chorwad Mata, and Sikotra Mata stand side by side, and where the family comes home for nivad.</p></div>
+        <div data-step data-pins=""><p class="eyebrow">Explore</p><h3>Every place, on one map</h3><p><a class="btn" href="land.html">Open the map →</a></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="hscroll band-red">
+  <div class="pin">
+    <div class="wrap" style="width:100%;margin-bottom:96px">
+      <p class="eyebrow">Time</p>
+      <h2 style="margin:0">Legends and <em>turning points</em></h2>
+    </div>
+    <div class="track">
+      <div class="item"><div class="yr">Legend</div><div class="dot"></div><h4>Born of Hanuman</h4><p>Tradition names Makardhwaj, son of Hanuman-ji, as our first ancestor, and his grandson Jethi-dhwaj as the one who gave us our name.</p></div>
+      <div class="item"><div class="yr">1193</div><div class="dot"></div><h4>The storm from the north</h4><p>By the clan’s tradition Morvi is lost, and the Jethwas turn west to the Barda hills to begin again.</p></div>
+      <div class="item"><div class="yr">c.1220</div><div class="dot"></div><h4>Rana of Ghumli</h4><p>Rana Shiyaji makes Ghumli the capital. The temples and stepwells rise around this time.</p></div>
+      <div class="item"><div class="yr">1313</div><div class="dot"></div><h4>The night Ghumli fell</h4><p>Barmaniyaji defeats Rana Bhanji Jethwa, and the golden capital is left in ruins.</p></div>
+      <div class="item"><div class="yr">1671</div><div class="dot"></div><h4>Porbandar won back</h4><p>Rana Vikmatji takes the port back from Mughal control and builds a fort.</p></div>
+      <div class="item"><div class="yr">c.1700</div><div class="dot"></div><h4>Dewji Bapa</h4><p>Counting back from Hirji Bapa, born 1905, the founder of our own line was born around the early 1700s.</p></div>
+      <div class="item"><div class="yr">1947</div><div class="dot"></div><h4>Into the Union</h4><p>Maharaja Rana Natwarsinhji signs Porbandar into India.</p></div>
+      <div class="item"><div class="yr">2026</div><div class="dot"></div><h4>The second edition</h4><p>262 names, twelve pedhi, gathered by many hands across the world.</p></div>
+    </div>
+    <div class="progress"></div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow reveal">Lineage</p>
+      <h2><span class="mask"><span>One root.</span></span><span class="mask"><span style="--d:.12s"><em>Twelve</em> generations.</span></span></h2>
+      <p class="lede reveal">Every line below is a real parent and child from the Vanshavali, drawn from Dewji Bapa outward. Daughters are traced in red.</p>
+    </div>
+    <div data-fan data-draw="scroll"></div>
+    <p style="text-align:center;margin-top:48px" class="reveal"><a class="btn solid" href="lineage.html">Find yourself in the tree →</a></p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow reveal">Memory</p>
+      <h2><span class="mask"><span>What every Jethwa</span></span><span class="mask"><span style="--d:.12s"><em>carries</em></span></span></h2>
+    </div>
+    <div class="cards" data-stagger>
+      <a class="card" href="memory.html#kuldev" style="background-image:none"><div data-art="diya" data-draw="scroll" style="width:110px;margin-bottom:24px"></div><h4>Chorwad Mata</h4><p>Our Kuldev, at the ancestral shrine in Khambhalia.</p></a>
+      <a class="card" href="memory.html#sikotra" style="background-image:none"><div data-art="boat" data-draw="scroll" style="width:130px;margin-bottom:24px"></div><h4>Sikotra Mata</h4><p>Goddess of the sea, and of every safe return home.</p></a>
+      <a class="card" href="memory.html#surapura" style="background-image:none"><div data-art="paliya" data-draw="scroll" style="width:80px;margin-bottom:24px"></div><h4>Sura Pura Bapa</h4><p>Kachra Bapa, our ancestral hero, at Morzar.</p></a>
+      <a class="card" href="memory.html#gotra" style="background-image:none"><div data-art="stars" data-draw="scroll" style="width:200px;margin-bottom:24px"></div><h4>Vasishtha gotra</h4><p>The sage whose star still shines over our family.</p></a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="eyebrow reveal">The archive</p>
+    <nav class="chapters" aria-label="Sections of the archive">
+      <a class="chapter reveal" href="lineage.html"><span class="k">01 · LINEAGE</span><h3>The family tree</h3><p>262 names across twelve pedhi. Search, and trace your line.</p><span class="arrow">→</span></a>
+      <a class="chapter reveal" href="people.html"><span class="k">02 · PEOPLE</span><h3>Faces of our family</h3><p>Four lines of the family, from Ananji Bapa to Topan Bapa.</p><span class="arrow">→</span></a>
+      <a class="chapter reveal" href="time.html"><span class="k">03 · TIME</span><h3>The Jethwas of Saurashtra</h3><p>Ghumli, Porbandar and the last Ranas.</p><span class="arrow">→</span></a>
+      <a class="chapter reveal" href="land.html"><span class="k">04 · LAND</span><h3>The map</h3><p>Every place in our story.</p><span class="arrow">→</span></a>
+      <a class="chapter reveal" href="memory.html"><span class="k">05 · MEMORY</span><h3>Faith and custom</h3><p>Gotra, Kuldev, nivad, Sura Pura Bapa, Barot.</p><span class="arrow">→</span></a>
+      <a class="chapter reveal" href="archive.html"><span class="k">06 · ARCHIVE</span><h3>Documents and sources</h3><p>The paper tree, the glossary, names to confirm.</p><span class="arrow">→</span></a>
+    </nav>
+  </div>
+</section>
+
+<section class="band" style="text-align:center;overflow:hidden">
+  <div class="halo"></div>
+  <div class="narrow" style="position:relative">
+    <svg class="flame" viewBox="0 0 120 120" aria-hidden="true">
+      <defs><radialGradient id="flameGrad" cx="50%" cy="70%" r="60%"><stop offset="0" stop-color="#fff3c4"/><stop offset=".45" stop-color="#e8a54a"/><stop offset="1" stop-color="#8e2a2a" stop-opacity="0"/></radialGradient></defs>
+      <path class="f" d="M60,70 C44,50 52,26 60,4 C68,26 76,50 60,70 Z"/>
+      <path d="M22,82 Q60,118 98,82 Q60,92 22,82 Z" fill="none" stroke="#c09a5b"/>
+    </svg>
+    <p class="eyebrow reveal" style="justify-content:center">Now it’s your turn</p>
+    <h2 class="reveal">Nine centuries carried this name to you. <em>Now you are the next flame.</em></h2>
+    <p class="lede reveal">Find yourself, ask one story, visit our shrines, and send a photo, a name or a memory for the next edition.</p>
+    <p class="reveal" style="margin-top:2.4rem"><a class="btn" href="archive.html#contribute">Add your chapter →</a></p>
+  </div>
+</section>
   </main>
-  <footer>
-    <p>&copy; 2026 Jethva Parivar</p>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="big" data-speed="0.08">Jethva Parivar</div>
+      <div class="cols">
+        <div>
+          <h4>The descendants of Dewji Bapa</h4>
+          <p>Gotra Vasishtha · Kuldev Chorwad Mata, Khambhalia · Sura Pura Bapa, Kachra Bapa of Morzar.</p>
+          <p class="small">From the Jethwa Vanshavali, second edition, October 2026 · compiled by Manoj Ramniklal Jethwa</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <p><a href="lineage.html">Family tree</a><br><a href="people.html">Faces of our family</a><br><a href="time.html">History</a><br><a href="land.html">Map</a><br><a href="memory.html">Faith and custom</a></p>
+        </div>
+        <div>
+          <h4>Help the archive grow</h4>
+          <p>Send a name, a photo or a correction. <a href="archive.html#contribute">How to contribute</a></p>
+          <p class="small">Jai Mataji · Jai Hanuman</p>
+        </div>
+      </div>
+    </div>
   </footer>
+  <script src="data/people.js"></script>
+  <script src="js/art.js"></script>
+  <script src="js/site.js"></script>
 </body>
 </html>

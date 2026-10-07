@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Jethwas of Saurashtra · Jethva Parivar</title>
   <meta name="description" content="Nine centuries of the Jethwa name: Ghumli, the Barda hills and the Ranas of Porbandar.">
+  <meta name="theme-color" content="#0c0a09">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&family=Noto+Serif+Gujarati:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Jost:wght@300;400;500&family=Hind+Vadodara:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,6 +29,8 @@
 
   <main>
 <header class="page-head">
+  <div class="glow" style="right:-12vw;top:-14vw"></div>
+  <div class="head-art" data-art="temple" data-draw="load" data-speed="0.12"></div>
   <div class="wrap">
     <p class="eyebrow">Time · Chapter 1</p>
     <h1>The Jethwas of Saurashtra</h1>
@@ -126,9 +129,9 @@
       <h2>The Ranas of Porbandar</h2>
     </div>
     <div class="gallery" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">
-      <figure class="reveal"><div class="plate">Portrait<br>to be added</div><figcaption><b>Rana Vikmatji</b>Reigned 1831–1900.<sup class="src">[4]</sup></figcaption></figure>
-      <figure class="reveal"><div class="plate">Portrait<br>to be added</div><figcaption><b>Rana Bhavsinhji</b>Reigned 1900–1908. Grandson of Vikmatji; restored Porbandar’s first-class status.<sup class="src">[5]</sup></figcaption></figure>
-      <figure class="reveal"><div class="plate">Portrait<br>to be added</div><figcaption><b>Maharaja Rana Natwarsinhji</b>Ruled 1908–1948. Captain of India’s first cricket tour of England (1932); signed Porbandar into India (1947).<sup class="src">[6]</sup></figcaption></figure>
+      <figure class="reveal"><div class="plate"><div class="pa" data-art="portrait"></div><span>Portrait to be added</span></div><figcaption><b>Rana Vikmatji</b>Reigned 1831–1900.<sup class="src">[4]</sup></figcaption></figure>
+      <figure class="reveal"><div class="plate"><div class="pa" data-art="portrait"></div><span>Portrait to be added</span></div><figcaption><b>Rana Bhavsinhji</b>Reigned 1900–1908. Grandson of Vikmatji; restored Porbandar’s first-class status.<sup class="src">[5]</sup></figcaption></figure>
+      <figure class="reveal"><div class="plate"><div class="pa" data-art="portrait"></div><span>Portrait to be added</span></div><figcaption><b>Maharaja Rana Natwarsinhji</b>Ruled 1908–1948. Captain of India’s first cricket tour of England (1932); signed Porbandar into India (1947).<sup class="src">[6]</sup></figcaption></figure>
     </div>
     <div class="callout reveal" style="margin-top:56px">
       <p><span class="tag fam">Family record</span></p>
@@ -140,22 +143,26 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <div>
-        <h4>Jethva Parivar</h4>
-        <p>The descendants of Dewji Bapa. Gotra Vasishtha · Kuldev Chorwad Mata, Khambhalia · Sura Pura Bapa Kachra Bapa, Morzar.</p>
-        <p class="small">From the Jethwa Vanshavali, second edition, October 2026, compiled by Manoj Ramniklal Jethwa.</p>
-      </div>
-      <div>
-        <h4>Explore</h4>
-        <p><a href="lineage.html">Family tree</a><br><a href="people.html">Faces of our family</a><br><a href="time.html">History</a><br><a href="land.html">Map</a></p>
-      </div>
-      <div>
-        <h4>Help the archive grow</h4>
-        <p>Send a name, a photo or a correction. <a href="archive.html#contribute">How to contribute</a></p>
-        <p class="small">Jai Mataji · Jai Hanuman</p>
+      <div class="big" data-speed="0.08">Jethva Parivar</div>
+      <div class="cols">
+        <div>
+          <h4>The descendants of Dewji Bapa</h4>
+          <p>Gotra Vasishtha · Kuldev Chorwad Mata, Khambhalia · Sura Pura Bapa, Kachra Bapa of Morzar.</p>
+          <p class="small">From the Jethwa Vanshavali, second edition, October 2026 · compiled by Manoj Ramniklal Jethwa</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <p><a href="lineage.html">Family tree</a><br><a href="people.html">Faces of our family</a><br><a href="time.html">History</a><br><a href="land.html">Map</a><br><a href="memory.html">Faith and custom</a></p>
+        </div>
+        <div>
+          <h4>Help the archive grow</h4>
+          <p>Send a name, a photo or a correction. <a href="archive.html#contribute">How to contribute</a></p>
+          <p class="small">Jai Mataji · Jai Hanuman</p>
+        </div>
       </div>
     </div>
   </footer>
+  <script src="js/art.js"></script>
   <script src="js/site.js"></script>
 </body>
 </html>

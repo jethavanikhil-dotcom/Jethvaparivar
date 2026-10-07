@@ -36,9 +36,9 @@
     var L = window.ART._labels, M = window.ART._mapmeta;
     var s = '<text class="sea" x="' + L.sea[0] + '" y="' + L.sea[1] + '">ARABIAN SEA</text>' +
       '<text class="sea" x="' + L.gulf[0] + '" y="' + L.gulf[1] + '" transform="rotate(-12 ' + L.gulf[0] + ' ' + L.gulf[1] + ')">GULF OF KUTCH</text>' +
-      '<text x="' + L.kutch[0] + '" y="' + L.kutch[1] + '" font-size="16" font-style="italic" style="font-family:var(--display)">Kutch</text>' +
+      '<text x="' + L.kutch[0] + '" y="' + L.kutch[1] + '" font-size="16" style="font-family:var(--display)">Kutch</text>' +
       '<text x="' + L.saurashtra[0] + '" y="' + L.saurashtra[1] + '" font-size="28" letter-spacing="10" style="font-family:var(--display);fill:rgba(192,154,91,.35)">SAURASHTRA</text>' +
-      '<text x="' + M.barda[0] + '" y="' + M.barda[1] + '" font-size="14" font-style="italic" style="font-family:var(--display);fill:#c09a5b">Barda hills</text>' +
+      '<text x="' + M.barda[0] + '" y="' + M.barda[1] + '" font-size="14" style="font-family:var(--display);fill:#c09a5b">Barda hills</text>' +
       '<text x="' + M.compass[0] + '" y="' + (M.compass[1] - 50) + '" text-anchor="middle" font-size="15" style="font-family:var(--display);fill:#e0c48f">N</text>';
     window.ART._places.forEach(function (p) {
       var name = p[0], x = p[1], y = p[2], sub = p[3], side = p[4];
